@@ -1,20 +1,24 @@
-import logo from '@/logo.svg';
+//import logo from '@/logo.svg';
 import '@/App.css';
+
 import Home from '@/pages/Home';
 import Apropos from '@/pages/Apropos';
-import Logements from '@/pages/Logements';
-import Erreurs from '@/pages/Erreurs';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Erreurs from '@/_utils/Erreurs';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Home />
-        <Logements />
-        <Erreurs />
-        <Apropos />
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+
+          <Route path="/home" element={<Home />} />
+          <Route path="/apropos" element={<Apropos />} />
+
+          <Route path="*" element={<Erreurs />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
