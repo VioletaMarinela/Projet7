@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Apropos = () => {
+const Logements = () => {
     return (
         <div>
-            A propos !
+            Logements !
         </div>
     );
 };
 
-export default Apropos;
+export default Logements;

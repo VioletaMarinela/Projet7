@@ -1,12 +1,15 @@
 import React from 'react';
-import Header from '@/components/public/Header';
+import Logements from './Logements';
 
 const Home = () => {
     return (
-        <div>
-            <Header />
+        <div className='Accueil'>
             Accueil Kasa !
+
+            <Logements />
         </div>
+
+
     );
 };
 
