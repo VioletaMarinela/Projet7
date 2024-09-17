@@ -8,8 +8,8 @@ const Header = () => {
         <header>
             <img src={logo} className="logo" alt="Le logo" />
             <nav>
-                <NavLink to="/home" className="navlink" style={({ isActive }) => isActive ? { borderBottom: "1px solid #ff6060" } : { borderBottom: "unset" }}  >Accueil</NavLink>
-                <NavLink to="/apropos" className="navlink" style={({ isActive }) => isActive ? { borderBottom: "1px solid #ff6060" } : { borderBottom: "unset" }}  >À propos</NavLink>
+                <NavLink to="/home" className="navlink" style={({ isActive }) => isActive ? { borderBottom: "1px solid #000000" } : { borderBottom: "unset" }}  >Accueil</NavLink>
+                <NavLink to="/apropos" className="navlink" style={({ isActive }) => isActive ? { borderBottom: "1px solid #000000" } : { borderBottom: "unset" }}  >À propos</NavLink>
             </nav>
         </header>
     );

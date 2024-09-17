@@ -1,0 +1,78 @@
+ .SectionAccueil {
+     padding: 20px;
+ }
+
+ .listeapropos {
+     list-style: none;
+     padding: 40px;
+     margin: 0;
+ }
+
+ .listeapropos li {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: #f45050;
+     color: white;
+     padding: 10px 40px;
+     margin: 5px 60px;
+     margin-bottom: 40px;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+     font-size: 25px;
+     font-weight: 500;
+
+ }
+
+ .item-container {
+     position: relative;
+     cursor: pointer;
+     transition: all 0.3s ease;
+     margin-bottom: 10px;
+ }
+
+ .description-container {
+     position: relative;
+     bottom: 100%;
+     left: 0;
+     background-color: white;
+     padding: 10px;
+     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+     z-index: 1;
+     border-radius: 4px;
+     width: 100%;
+     max-width: calc(100% - 20px);
+     pointer-events: visible;
+ }
+
+ .description-container.active {
+     display: block;
+ }
+
+ .description {
+     margin: 0;
+     color: black;
+ }
+
+ .listeapropos li:hover {
+     background-color: #d43d3d;
+ }
+
+
+
+ .rotate.icon-container {
+     transform: rotate(180deg);
+ }
+
+ @media only screen and (max-width : 1024px) {
+     .SectionAccueil .listelogement {
+         grid-template-columns: repeat(2, 1fr);
+     }
+ }
+
+ @media only screen and (max-width : 780px) {
+     .SectionAccueil .listelogement {
+         grid-template-columns: repeat(1, 1fr);
+     }
+ }

@@ -5,8 +5,8 @@ const GetAllLogement = () => {
     return Listelogement;
 }
 
-const GetOneLogement = async (id) => {
-    const OneLogement = await Listelogement.find(logement => logement.id === id);
+const GetOneLogement = (id) => {
+    const OneLogement = Listelogement.find(logement => logement.id === id);
 
     return OneLogement
 }
@@ -16,4 +16,4 @@ export const logementservice = {
     GetOneLogement
 }
 
-export default logementservice
+export default logementservice;

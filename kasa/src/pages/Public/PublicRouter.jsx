@@ -1,7 +1,8 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import Listelogement from "@/assets/data/logement.json";
 
-import { Home, Apropos, Logements } from '@/pages/Public';
+import { Home, Apropos, LogementDetail } from '@/pages/Public';
 import Erreurs from '@/_utils/Erreurs';
 
 import Layout from "@/Layout/Layout"
@@ -15,7 +16,8 @@ const PublicRouter = () => {
 
                 <Route path="/home" element={<Home />} />
                 <Route path="/apropos" element={<Apropos />} />
-                <Route path="/logements" element={<Logements />} />
+                <Route path="/logements" exact component={Listelogement} />
+                <Route path="/logements/:id" element={<LogementDetail />} />
 
                 <Route path="*" element={<Erreurs />} />
 
