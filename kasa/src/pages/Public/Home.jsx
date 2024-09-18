@@ -8,6 +8,7 @@ import imagehome from '@/assets/Img/banner1.png';
 import logementservice from '@/_Services/logement.service';
 
 
+
 const Home = () => {
 
     return (
