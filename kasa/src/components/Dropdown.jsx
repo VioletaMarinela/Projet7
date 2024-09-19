@@ -18,7 +18,11 @@ const Dropdown = ({ title, description }) => {
             <div className='Collapse-header' onClick={handlerDropdown}>
                 <h2>{title}</h2>
                 <span>
-                    <img src={open ? flechehaut : flechebas} alt="flechesClick" />
+                    <img
+                        src={open ? flechehaut : flechebas}
+                        alt="flechesClick"
+                        className={open ? 'rotate' : ''}
+                    />
                 </span>
             </div>
             {
