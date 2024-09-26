@@ -1,0 +1,16 @@
+.stars-list {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+}
+
+.star {
+    font-size: 30px;
+    color: lightgray;
+    cursor: pointer;
+    margin-right: 4px;
+}
+
+.star.filled {
+    color: #ff6060;
+}

@@ -2,47 +2,30 @@
     font-family: Arial, sans-serif;
     margin: auto;
     max-width: 1200px;
-    padding: 20px;
+    padding: 30px;
 
 }
 
 .image-carousel {
     position: relative;
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .image-carousel img {
     width: 100%;
-    height: 80%;
+    height: 100%;
     object-fit: cover;
-}
-
-.image-index {
-    position: absolute;
-    /* Positionner l'index correctement */
-    bottom: 10px;
-    /* Ajustez selon vos besoins */
-    left: 50%;
-    transform: translateX(-50%);
-    /* Centrer horizontalement */
-    color: white;
-    /* Couleur du texte */
-    font-size: 1.2em;
-    /* Taille du texte */
-    background: rgba(0, 0, 0, 0.5);
-    /* Fond semi-transparent */
-    padding: 5px;
-    /* Espacement autour du texte */
-    border-radius: 5px;
-    /* Coins arrondis */
 }
 
 .logement-title {
     font-size: 2rem;
-    margin: 20px 0 10px 0;
-    text-align: center;
+    margin: 5px 0 10px 0;
+    text-align: left;
+    color: #ff6060;
 }
 
 .location {
@@ -52,19 +35,36 @@
     margin-bottom: 20px;
 }
 
-.description-equipements {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-    background-color: #ff6060;
-    padding: 20px;
-    color: white;
-    border-radius: 8px;
+.host-detail {
+    align-items: right;
 }
 
-.description-equipements>div {
+.host-name {
+    margin-right: 10px;
+}
+
+.tags-stars {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: flex-end;
+}
+
+.title-location-host {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.description-equipements {
+    display: flex;
+    margin-left: -50px;
+}
+
+.dropdown-box {
     flex: 1;
-    margin: 0 10px;
+    color: #000;
+    border-radius: 10px;
 }
 
 .dropdown-title {
@@ -74,6 +74,6 @@
 
 .dropdown-description {
     background-color: #f9f9f9;
-    padding: 10px;
     border-radius: 5px;
+    border: 1px solid #ccc;
 }
