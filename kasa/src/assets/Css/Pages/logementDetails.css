@@ -1,79 +1,80 @@
-.logement-details {
-    font-family: Arial, sans-serif;
-    margin: auto;
-    max-width: 1200px;
-    padding: 30px;
-
-}
-
-.image-carousel {
-    position: relative;
+.SectionLogement {
     width: 100%;
-    height: 100%;
-    overflow: hidden;
-    margin-bottom: 20px;
-    border-radius: 10px;
 }
 
-.image-carousel img {
+.containerTopInfo {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.logement-title {
-    font-size: 2rem;
-    margin: 5px 0 10px 0;
-    text-align: left;
-    color: #ff6060;
-}
-
-.location {
-    font-size: 1.2rem;
-    color: #555;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.host-detail {
-    align-items: right;
-}
-
-.host-name {
-    margin-right: 10px;
-}
-
-.tags-stars {
     display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
-    align-items: flex-end;
-}
-
-.title-location-host {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
+    margin: 30px 0 20px 0;
 }
 
-.description-equipements {
+@media screen and (max-width: 780px) {
+    .containerTopInfo {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.containerTitle {
     display: flex;
-    margin-left: -50px;
+    flex-direction: column;
+    width: 100%;
+
 }
 
-.dropdown-box {
-    flex: 1;
-    color: #000;
-    border-radius: 10px;
+@media screen and (max-width: 780px) {
+    .containerTopInfo {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
 }
 
-.dropdown-title {
-    font-weight: bold;
-    margin-bottom: 10px;
+.containerTitle h2 {
+    color: #ff6060;
+    font-weight: 500;
+    font-size: 36px;
 }
 
-.dropdown-description {
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+@media screen and (max-width: 780px) {
+    .containerTitle h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.containerTitle p {
+    color: black;
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 780px) {
+    .hostStars {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+.containerDropdown {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 50px
+}
+
+@media screen and (max-width: 780px) {
+
+    .containerDropdown {
+        flex-direction: column;
+
+    }
+
 }

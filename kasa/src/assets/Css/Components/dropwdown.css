@@ -6,7 +6,13 @@
     width: 90%;
     display: flex;
     flex-direction: column;
-    margin: 40px;
+    margin: auto;
+}
+
+@media screen and (max-width: 780px) {
+    .Collapse-Container {
+        width: 100%;
+    }
 }
 
 .Collapse-header {
@@ -42,12 +48,13 @@
     transition: transform 0.2s ease;
 }
 
-.Collapse-header img.rotate {
-    transform: rotate(180deg);
-}
+/* .Collapse-header img.rotate {
+    transform: rotate(360deg);
+} */
 
 .Collapse-Container .Collapse-description {
     color: black;
     padding: 30px 12px 27px 20px;
     font-size: 18px;
+    height: 100px;
 }

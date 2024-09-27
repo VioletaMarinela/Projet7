@@ -7,13 +7,11 @@ header {
 
 @media only screen and (max-width : 780px) {
     header {
-        flex-direction: column;
-        justify-content: space-around;
         height: 9em;
     }
 
     header img {
-        height: 4em;
+        height: 3em;
     }
 }
 
