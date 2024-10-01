@@ -1,6 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
-import PublicRouter from '@/pages/Public/PublicRouter';
-import '@/assets/Css/Template/App.css';
+import PublicRouter from './pages/PublicRouter';
+import '../src/assets/Css/Template/app.css';
 
 function App() {
   return (

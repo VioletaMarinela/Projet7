@@ -1,6 +1,6 @@
 
 import React from 'react';
-import '@/assets/Css/Components/stars.css';
+import '../assets/Css/components/stars.css';
 
 const Stars = ({ rating }) => {
     const numStars = Math.round(rating);
