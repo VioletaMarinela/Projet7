@@ -1,13 +1,14 @@
 .Collapse-Container {
-    background-color: #f6f6f6;
+
     color: #ffffff;
     border-radius: 10px;
     font-size: 14px;
     width: 90%;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 20px auto;
     padding: 10px;
+    transition: margin 0.3s ease;
 }
 
 @media screen and (max-width: 780px) {
@@ -57,5 +58,5 @@
     color: black;
     padding: 30px 12px 27px 20px;
     font-size: 18px;
-    height: 100px;
+    background-color: #f6f6f6;
 }
