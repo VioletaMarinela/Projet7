@@ -1,11 +1,15 @@
 .Card {
     position: relative;
-    height: 100%;
-    min-height: 340px;
+    width: 100%;
+    padding-top: 100%;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .Card img {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     object-fit: cover;

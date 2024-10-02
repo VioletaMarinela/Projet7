@@ -1,5 +1,4 @@
 .Collapse-Container {
-
     color: #ffffff;
     border-radius: 10px;
     font-size: 14px;
@@ -7,6 +6,7 @@
     display: flex;
     flex-direction: column;
     margin: 20px auto;
+    margin-top: 1px;
     padding: 10px;
     transition: margin 0.3s ease;
 }
@@ -41,18 +41,17 @@
 .Collapse-header span img {
     display: flex;
     justify-content: flex-end;
-    margin-right: 10px;
+    margin: 0;
     width: 60%;
-
 }
 
 .Collapse-header img {
-    transition: transform 0.2s ease;
+    transition: transform 1s ease;
 }
 
-/* .Collapse-header img.rotate {
+.Collapse-header img.rotate {
     transform: rotate(360deg);
-} */
+}
 
 .Collapse-Container .Collapse-description {
     color: black;

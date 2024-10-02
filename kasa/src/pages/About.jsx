@@ -11,7 +11,7 @@ import ListeCollapse from "../assets/data/collapse.json"
 const About = () => {
 
     return (
-        <section className='SectionAccueil'>
+        <section className='SectionHome'>
             <Banner className="apropos-banner" image={imagehome} title="" />
 
             <ul className='listeapropos'>

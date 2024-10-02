@@ -12,10 +12,10 @@ import apartmentService from '../_utils/apartment.service';
 const Home = () => {
 
     return (
-        <section className='SectionAccueil'>
+        <section className='SectionHome'>
             <Banner image={imagehome} title="Chez vous, partout et ailleurs" />
 
-            <ul className='listelogement'>
+            <ul className='DataApartment'>
                 {
                     apartmentService.GetAllApartment().map((apartment) =>
                         <NavLink key={apartment.id} to={`/apartment/${apartment.id}/#`}>

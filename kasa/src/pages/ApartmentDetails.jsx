@@ -55,7 +55,7 @@ const ApartmentDetails = () => {
     if (error) return <h2>{error}</h2>;
 
     return (
-        <section className="SectionLogement">
+        <section className="SectionHome">
             <Gallery images={apartment.pictures} />
             <div className="containerTopInfo">
                 <div className="containerTitle">

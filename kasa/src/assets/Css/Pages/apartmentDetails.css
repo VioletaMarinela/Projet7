@@ -1,13 +1,9 @@
-.SectionLogement {
-    width: 100%;
-}
-
 .containerTopInfo {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 0 20px 0;
+    margin: 20px 0 20px 0;
 }
 
 @media screen and (max-width: 780px) {
@@ -64,8 +60,9 @@
 
 .containerDropdown {
     display: flex;
+    margin-left: -10px;
     gap: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     min-height: 50px
 }
