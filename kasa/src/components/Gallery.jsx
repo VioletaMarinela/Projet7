@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../assets/Css/components/gallery.css';
+import '../assets/Css/Components/gallery.css';
 import flechegauche from "../assets/Img/arrow_left.png";
 import flechedroite from "../assets/Img/arrow_right.png";
 

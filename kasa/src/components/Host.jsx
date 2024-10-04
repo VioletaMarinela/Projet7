@@ -1,5 +1,5 @@
 import React from 'react';
-import '../assets/Css/components/host.css';
+import '../assets/Css/Components/host.css';
 
 const Host = ({ name, picture }) => {
     return (
