@@ -14,7 +14,11 @@
 }
 
 .profile-name {
-    font-size: 15px;
-    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Montserrat";
+    text-align: right;
+    margin-right: 10px;
     color: #ff6060;
+    width: 50%;
 }

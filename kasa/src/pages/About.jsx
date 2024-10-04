@@ -14,7 +14,7 @@ const About = () => {
         <section className='SectionHome'>
             <Banner className="apropos-banner" image={imagehome} title="" />
 
-            <ul className='listeapropos'>
+            <ul className='AboutData'>
                 {ListeCollapse.map((item) => (
                     <Collapse key={item.id} title={item.title} description={item.description} />
                 ))}
