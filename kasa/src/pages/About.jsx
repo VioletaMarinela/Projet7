@@ -1,8 +1,8 @@
 import React from 'react';
 import '../assets/Css/Pages/about.css';
 
-import Banner from '../Components/Banner';
-import Collapse from '../Components/Collapse';
+import Banner from '../components/Banner';
+import Collapse from '../components/Collapse';
 
 import imagehome from '../assets/Img/banner2.png';
 

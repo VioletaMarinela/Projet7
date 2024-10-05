@@ -2,8 +2,8 @@ import React from 'react';
 import { NavLink } from "react-router-dom"
 import '../assets/Css/Pages/home.css';
 
-import Card from '../Components/Card';
-import Banner from '../Components/Banner';
+import Card from '../components/Card';
+import Banner from '../components/Banner';
 import imagehome from '../assets/Img/banner1.png';
 import apartmentService from '../_utils/apartment.service';
 

@@ -2,11 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import apartmentService from '../_utils/apartment.service';
 import '../assets/Css/Pages/apartmentDetails.css';
-import Collapse from '../Components/Collapse';
-import Gallery from '../Components/Gallery';
-import Host from '../Components/Host';
-import Stars from '../Components/Stars';
-import Tags from '../Components/Tags';
+import Collapse from '../components/Collapse';
+import Gallery from '../components/Gallery';
+import Host from '../components/Host';
+import Stars from '../components/Stars';
+import Tags from '../components/Tags';
 
 const ApartmentDetails = () => {
     const [apartment, setApartment] = useState(null);

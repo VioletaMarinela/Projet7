@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import flechehaut from "../assets/Img/CollapseFlecheHaut.png";
 import flechebas from "../assets/Img/CollapseFlecheBas.png";
 
-import "../assets/Css/components/collapse.css";
+import "../assets/Css/Components/collapse.css";
 
 const Collapse = ({ title, description }) => {
 
