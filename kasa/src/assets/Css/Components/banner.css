@@ -1,5 +1,4 @@
 .banner {
-    width: 100%;
     position: relative;
     height: 200px;
     background-size: cover;
@@ -8,7 +7,7 @@
     align-items: center;
     color: white;
     border-radius: 10px;
-    margin-top: 20px;
+    margin: 20px;
     justify-content: center;
 }
 
@@ -40,7 +39,6 @@
 @media only screen and (max-width : 780px) {
 
     .banner {
-        width: 100%;
         position: relative;
         height: 200px;
         background-size: cover;
